@@ -1,0 +1,12 @@
+.home-body {
+    background-color: rgb(180, 214, 170);
+    background-size: cover;
+}
+
+.main-title {
+    font-family: "Henny Penny", system-ui;
+    font-weight: 400;
+    font-size: 260px;
+    text-align: center;
+    margin-top: -0.5px;
+}
