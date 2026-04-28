@@ -19,3 +19,10 @@
     text-align: center;
     margin-top: -260px;
 }
+
+.container {
+    display: flex;
+    height: calc(100vh - 0px);
+    background-color: white;
+    padding: 40px;
+}
