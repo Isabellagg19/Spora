@@ -9,7 +9,7 @@
     font-size: 260px;
     text-align: center;
     margin-top: 20px;
-    padding-top: 60px;
+    padding-top: 70px;
 }
 
 .subtitle {
@@ -19,7 +19,7 @@
     letter-spacing: 4px;
     text-align: center;
     margin-top: -260px;
-    margin-bottom: 400px;
+    margin-bottom: 300px;
 }
 
 .container {
@@ -27,5 +27,12 @@
     height: calc(100vh - 0px);
     background-color: white;
     padding: 40px;
+}
 
+#title1 {
+    display: flex;
+    font-size: 50px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: center;
+    margin-top: 10px;
 }
