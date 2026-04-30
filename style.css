@@ -53,9 +53,30 @@ h3 {
     text-align: left;
     padding-top: 30px;
     padding-left: 50px;
-    transition: transform 0.3 ease;
+    transition: transform 0.8s ease;
 }
 
 h3:hover {
-    transform: translateX(70px);
+    transform: translateY(-20px);
+}
+
+.text {
+    padding-left: 50px;
+    text-align: left;
+    font-family: "Quicksand", sans-serif;
+    font-size: 30px;
+}
+
+#key {
+    padding-left: 50px;
+    text-align: left;
+    font-family: "Quicksand", sans-serif;
+    font-size: 30px;
+    font-weight: 700;
+    text-decoration: underline;
+    transition: transform 0.8s ease;
+}
+
+#key:hover {
+    transform: translateY(-15px);
 }
