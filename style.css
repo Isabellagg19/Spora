@@ -67,7 +67,7 @@ h3:hover {
     font-size: 30px;
 }
 
-#key {
+.key {
     padding-left: 50px;
     text-align: left;
     font-family: "Quicksand", sans-serif;
@@ -77,7 +77,7 @@ h3:hover {
     transition: transform 0.8s ease;
 }
 
-#key:hover {
+.key:hover {
     transform: translateY(-15px);
 }
 
@@ -152,17 +152,20 @@ h3:hover {
     background-size: cover;
 }
 
-.body-sus {
-    background-color: rgb(179, 145, 145);
-    background-size: cover;
+.text1 {
+    padding-left: 50px;
+    text-align: left;
+    font-family: "Quicksand", sans-serif;
+    font-size: 30px;
+    margin-bottom: 15px;
+    padding-right: 50px;
+    padding-left: 50px;
 }
 
-#main-title1 {
-    font-family: "Henny Penny", system-ui;
-    font-weight: 400;
-    font-size: 220px;
-    text-align: center;
-    margin-top: 20px;
-    padding-top: 130px;
+#title-experiment {
+    font-weight: 500;
 }
 
+.space {
+    margin-bottom: 50px;
+}
