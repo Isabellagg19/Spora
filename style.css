@@ -19,20 +19,43 @@
     letter-spacing: 4px;
     text-align: center;
     margin-top: -260px;
-    margin-bottom: 300px;
+    margin-bottom: 400px;
 }
 
 .container {
     display: flex;
-    height: calc(100vh - 0px);
+    flex-direction: column;
+    justify-content: center;
+    justify-items: center;
+    width: 100%;
     background-color: white;
-    padding: 40px;
+    padding-bottom: 87px;
 }
 
-#title1 {
-    display: flex;
-    font-size: 50px;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+.paragraph1 {
+    font-family: "Fredericka the Great", serif;
+    padding-bottom: 5px;
+    padding-left: 30px;
+    padding-right: 30px;
+    font-size: 70px;
     text-align: center;
-    margin-top: 10px;
+    transition: transform 0.3s ease;
+}
+
+.paragraph1:hover {
+    transform: translateY(-15px);
+}
+
+h3 {
+    font-family: "Quicksand", sans-serif;
+    font-size: 60px;
+    font-weight: 300;
+    text-align: left;
+    padding-top: 30px;
+    padding-left: 50px;
+    transition: transform 0.3 ease;
+}
+
+h3:hover {
+    transform: translateX(70px);
 }
