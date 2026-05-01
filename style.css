@@ -23,7 +23,7 @@
     font-size: 30px;
     letter-spacing: 4px;
     text-align: center;
-    margin-top: -260px;
+    margin-top: -250px;
     margin-bottom: 400px;
 }
 
@@ -76,7 +76,7 @@ h3:hover {
     padding-left: 50px;
     text-align: left;
     font-family: "Quicksand", sans-serif;
-    font-size: 30px;
+    font-size: 31px;
     font-weight: 700;
     text-decoration: underline;
     transition: transform 0.8s ease;
@@ -149,12 +149,17 @@ h3:hover {
 
 .body-eng {
     background-color: rgb(183, 140, 109);
-    background-size: cover;
+    width: 100%;
 }
 
 .body-med {
     background-color: rgb(138, 91, 87);
-    background-size: cover;
+    width: 100%;
+}
+
+.body-sus {
+    background-color: rgba(94, 47, 56, 0.785);
+    width: 100%;
 }
 
 .text1 {
@@ -179,4 +184,46 @@ h3:hover {
 #title-penicilin {
     font-weight: 700;
     color: #500202;
+}
+
+#divider1 {
+  width: 15%;
+  height: 5px;
+  background-color: #550211;
+  margin-top: -40px;
+  margin: 20px auto;
+  border-radius: 30px;
+  transition: transform 0.5s ease;
+}
+
+#divider1:hover {
+    transform: translateY(-15px);
+}
+
+#divider2 {
+  width: 15%;
+  height: 5px;
+  background-color: #4a250f;
+  margin-top: -40px;
+  margin: 20px auto;
+  border-radius: 30px;
+  transition: transform 0.5s ease; 
+}
+
+#divider1:hover {
+    transform: translateY(-15px);
+}
+
+#sus-title {
+    font-family: "Henny Penny", system-ui;
+    font-weight: 400;
+    font-size: 220px;
+    text-align: center;
+    margin-top: 20px;
+    padding-top: 70px;
+    transition: transform 0.8s ease;
+}
+
+#sus-title {
+    transform: translateX(30px);
 }
