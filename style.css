@@ -178,7 +178,7 @@ h3:hover {
 }
 
 .space {
-    margin-bottom: 50px;
+    margin-bottom: 200px;
 }
 
 #title-penicilin {
@@ -226,4 +226,13 @@ h3:hover {
 
 #sus-title {
     transform: translateX(30px);
+}
+
+.quotes{
+    transition: transform 0.3s ease;
+
+}
+
+.quotes:hover {
+    transform: scale(1.05); 
 }
