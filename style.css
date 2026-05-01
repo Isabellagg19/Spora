@@ -70,6 +70,7 @@ h3:hover {
     text-align: left;
     font-family: "Quicksand", sans-serif;
     font-size: 30px;
+    margin-top: -60px;
 }
 
 .key {
@@ -97,7 +98,7 @@ h3:hover {
 
 .buttons_container {
     padding-top: 40px;
-    padding-bottom: 30px;
+    padding-bottom: 80px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -158,7 +159,7 @@ h3:hover {
 }
 
 .body-sus {
-    background-color: rgba(94, 47, 56, 0.785);
+    background-color: rgba(146, 91, 101, 0.785);
     width: 100%;
 }
 
@@ -210,7 +211,21 @@ h3:hover {
   transition: transform 0.5s ease; 
 }
 
-#divider1:hover {
+#divider2:hover {
+    transform: translateY(-15px);
+}
+
+#divider3 {
+  width: 15%;
+  height: 5px;
+  background-color: rgba(94, 47, 56, 0.785);
+  margin-top: -40px;
+  margin: 20px auto;
+  border-radius: 30px;
+  transition: transform 0.5s ease; 
+}
+
+#divider3:hover {
     transform: translateY(-15px);
 }
 
