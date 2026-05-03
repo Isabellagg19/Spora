@@ -70,7 +70,7 @@ h3:hover {
     text-align: left;
     font-family: "Quicksand", sans-serif;
     font-size: 30px;
-    margin-top: -60px;
+    line-height: 1.6;
 }
 
 .key {
@@ -98,7 +98,7 @@ h3:hover {
 
 .buttons_container {
     padding-top: 40px;
-    padding-bottom: 80px;
+    padding-bottom: 300px;
     display: flex;
     justify-content: center;
     align-items: center;
