@@ -251,3 +251,23 @@ h3:hover {
 .quotes:hover {
     transform: scale(1.05); 
 }
+
+.text-icon {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.icon {
+    width: 300px;
+    height: auto;
+    margin-bottom: -20px;
+    transition: transform 0.5s ease;
+}
+
+.icon:hover {
+    transform: scale(1.50); 
+}
+#space2 {
+    margin-bottom: 60px;
+}
