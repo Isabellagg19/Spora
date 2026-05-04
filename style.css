@@ -14,7 +14,7 @@
 }
 
 .main-title:hover {
-    transform: translateX(30px);
+    transform: translateY(-17px);
 }
 
 .subtitle {
@@ -240,7 +240,7 @@ h3:hover {
 }
 
 #sus-title {
-    transform: translateX(30px);
+    transform: translateY(-17px);
 }
 
 .quotes{
@@ -282,7 +282,7 @@ h3:hover {
 }
 
 .box {
-    background-color: white;
+    background-color: rgba(208, 142, 142, 0.779);
     width: 500px;
     height: 150px;
     padding: 15px;
