@@ -67,6 +67,7 @@ h3:hover {
 
 .text {
     padding-left: 50px;
+    padding-right: 50px;
     text-align: left;
     font-family: "Quicksand", sans-serif;
     font-size: 30px;
@@ -74,7 +75,6 @@ h3:hover {
 }
 
 .key {
-    padding-left: 50px;
     text-align: left;
     font-family: "Quicksand", sans-serif;
     font-size: 31px;
@@ -85,6 +85,10 @@ h3:hover {
 
 .key:hover {
     transform: translateY(-15px);
+}
+
+#space2 {
+    padding-left: 50px;
 }
 
 .divider {
@@ -98,7 +102,7 @@ h3:hover {
 
 .buttons_container {
     padding-top: 40px;
-    padding-bottom: 300px;
+    padding-bottom: 10px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -307,5 +311,57 @@ h3:hover {
 .box:hover {
     transform: translateY(-15px);
     box-shadow: 0 4px 6px #3a3838;
+}
+
+#important {
+    font-family: "Alata", sans-serif;
+    font-size: 35px;
+    font-weight: 500;
+    line-height: 1.6;
+    padding-left: 50px;
+    text-align: left;
+}
+
+.last-phrase {
+    text-align: center;
+    font-family: "Quicksand", sans-serif;
+    font-size: 40px;
+    line-height: 1.2;
+}
+
+.final {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+}
+
+#final-button {
+    background-color: rgba(193, 74, 63, 0.89);
+    display: inline-block;
+    font-family: "Quicksand", sans-serif;
+    font-size: 30px;
+    font-weight: 400;
+    color: #000000;
+    border-radius: 999px;
+    cursor: pointer;
+    padding: 20px 40px;  
+    text-decoration: none; 
+    transition: transform 0.7s ease  background-color 0.7s ease, box-shadow 0.7s ease;
+}
+
+#final-button:hover {
+    transform: scale(1.05);
+    background-color: rgba(235, 168, 162, 0.89);
+    box-shadow: 0 4px 6px #504949;
+}
+
+#message1{
+    font-family: "Quicksand", sans-serif;
+    font-size: 30px;
+    color: #000000;
+    opacity: 1;
+    transition: opacity 0.8s ease;
+    padding-left: 20px;
 }
 
