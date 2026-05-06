@@ -313,7 +313,7 @@ h3:hover {
     box-shadow: 0 4px 6px #3a3838;
 }
 
-#important {
+.important {
     font-family: "Alata", sans-serif;
     font-size: 35px;
     font-weight: 500;
@@ -451,9 +451,40 @@ h3:hover {
     text-align: center;
 }
 
+.glossary-text1 {
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 600;
+    font-size: 15px;
+    letter-spacing: 3px;
+    text-align: center; 
+}
 .glossary-text {
     font-family: 'Courier New', Courier, monospace;
     font-size: 15px;
     letter-spacing: 3px;
     text-align: center;
 }
+
+#btn2 {
+    display: block;
+    width: 200px;
+    text-align: center;
+    margin: 20px auto;
+    background-color: #80cd76d3;
+    font-family: "Quicksand", sans-serif;
+    font-size: 25px;
+    font-weight: 400;
+    color: #000000;
+    border-radius: 70px;
+    cursor: pointer;
+    padding: 20px 40px;  
+    text-decoration: none; 
+    transition: transform 0.3s ease, background-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+#btn2:hover {
+    background-color: #c1fab9d3;
+    transform: scale(1.05); 
+    box-shadow: 0 4px 6px #3a3838;
+}
+
