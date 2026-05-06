@@ -428,3 +428,32 @@ h3:hover {
 .icon2:hover {
     transform: scale(1.2);
 }
+
+.glossary-container {
+    background-color: white;
+    width: 300px;
+    margin: 40px auto;
+    padding: 10px;
+    border-radius: 30px;
+    margin-top: 10px;
+    transition: transform 0.5s ease, box-shadow 0.5s ease;
+}
+
+.glossary-container:hover {
+    transform: scale(1.05);
+    box-shadow: 0 4px 6px #1f1d1d;
+}
+
+.glossary-title {
+    font-family: "Barriecito", system-ui;
+    font-size: 20px;
+    font-weight: 500;
+    text-align: center;
+}
+
+.glossary-text {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 15px;
+    letter-spacing: 3px;
+    text-align: center;
+}
