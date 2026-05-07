@@ -158,7 +158,7 @@ h3:hover {
 }
 
 .body-med {
-    background-color: rgb(138, 91, 87);
+    background-color: rgb(175, 126, 121);
     width: 100%;
 }
 
@@ -453,7 +453,7 @@ h3:hover {
 
 .glossary-text1 {
     font-family: 'Courier New', Courier, monospace;
-    font-weight: 600;
+    font-weight: 6300;
     font-size: 15px;
     letter-spacing: 3px;
     text-align: center; 
@@ -488,3 +488,41 @@ h3:hover {
     box-shadow: 0 4px 6px #3a3838;
 }
 
+.scroll-arrow {
+    font-size: 70px;
+    color: #000000;
+    text-align: center;
+    margin-top: 25px;
+    animation: bounce 1.5s infinite;
+    cursor: default;
+}
+
+@keyframes bounce {
+    0%, 100% {transform: translateY(0);}
+    50% {transform: translateY(7cm);}
+}
+
+.hospital-container {
+    height: calc(100vh - 0px);
+    background-color: rgb(248, 250, 251);
+    display: block;
+    margin: 40px;
+    border-radius: 70px;
+    border: 2px solid black;
+    padding: 40px;
+    padding-bottom: 800px;
+}
+
+#medicine-title {
+    font-family:  "Irish Grover", system-ui;
+    font-size: 80px;
+    text-align: center;
+}
+
+#medicine-subtitle {
+    font-family: "Quicksand", sans-serif;
+    font-size: 35px;
+    text-align: center;
+    letter-spacing: 4px;
+    margin-top: -70px;
+}
