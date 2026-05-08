@@ -223,7 +223,8 @@ h3:hover {
   width: 15%;
   height: 5px;
   background-color: rgba(94, 47, 56, 0.785);
-  margin-top: -40px;
+  margin-top: 60px;
+  margin-bottom: 40px;
   margin: 20px auto;
   border-radius: 30px;
   transition: transform 0.5s ease; 
@@ -627,4 +628,24 @@ h3:hover {
 .tooltip:hover .tooltip-text {
   visibility: visible;
   opacity: 1;
+}
+
+#title-sus {
+    font-weight: 700;
+    color:#661b29;
+}
+
+.glossary-container2 {
+    background-color: rgb(133, 179, 102);
+    width: 300px;
+    margin: 40px auto;
+    padding: 10px;
+    border-radius: 30px;
+    margin-top: 10px;
+    transition: transform 0.5s ease, box-shadow 0.5s ease;
+}
+
+.glossary-container2:hover {
+    transform: scale(1.05);
+    box-shadow: 0 4px 6px #1f1d1d;
 }
